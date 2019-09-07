@@ -6,3 +6,5 @@ Make the file executable:
 chmod +x autohotspotN-setup.sh
 ```
 
+Source: https://www.youtube.com/watch?v=Uy6xbC0Hiew
+
