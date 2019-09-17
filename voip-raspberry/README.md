@@ -167,15 +167,19 @@ Following informations are required to connect to this server:
 - password: 12345678
 - outbound_proxy: SERVER_IP:5060
 
-You can use SIP clients:
-Linux
+##You can use SIP clients:
+### Linux
+
 [**blink**](http://icanblink.com/download/index.php#blink-for-debian-and-ubuntu-linux)
 
-Windows
+### Windows
+
 [**microSIP**](https://www.microsip.org/downloads)
 
 ***
-References:
+
+**References:**
 
 [**nikhiljohn10**](https://github.com/nikhiljohn10/pi-sip)
+
 [**Profesor Informático del Wallmapu**](https://www.youtube.com/watch?v=1-99rHl2Z0s)
