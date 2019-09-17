@@ -1,4 +1,4 @@
-Kamailio - PostgresQL
+# Kamailio - PostgresQL #
 
 ## Configure hostname.
 
@@ -32,7 +32,7 @@ MD5="md5sum"
 STORE_PLAINTEXT_PW=1
 ```
 
-# Install Postgres DATABASE
+## Install Postgres DATABASE
 ```bash
 apt install postgresql
 ```
@@ -131,7 +131,7 @@ root     15793 11559  0 00:43 pts/2    00:00:00 grep rtpproxy
 ```
 
 
-# Check Database.
+## Check Database.
 ```bash
 # psql -U kamuser -h localhost kamailio
 Contraseña para usuario kamuser: kampass123
@@ -144,7 +144,7 @@ kamailio=> \d #tables.
 ... tables everywhere ...
 ```
 
-# Restart Kamailio
+## Restart Kamailio
 ```bash
 systemctl restart kamailio
 ```
@@ -160,14 +160,14 @@ kamctl add 7849 12345678
 kamctl add 7840 12345678
 ```
 
-Following informations are required to connect to this server:
+**Following informations are required to connect to this server:**
 
 - Name: whatever
 - username: username1@SERVER_IP:5060
 - password: 12345678
 - outbound_proxy: SERVER_IP:5060
 
-##You can use SIP clients:
+## You can use SIP clients: ##
 ### Linux
 
 [**blink**](http://icanblink.com/download/index.php#blink-for-debian-and-ubuntu-linux)
