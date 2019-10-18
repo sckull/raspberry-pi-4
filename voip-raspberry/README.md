@@ -160,6 +160,13 @@ kamctl add 7849 12345678
 kamctl add 7840 12345678
 ```
 
+### Usefull Commands: ###
+```
+kamctl ul show
+kamctl online
+kamctl db show subscriber
+```
+
 **Following informations are required to connect to this server:**
 
 - Name: whatever
