@@ -42,4 +42,7 @@ Para ver los usuarios conectados en el servicio de SSH utilizamos el comando
 Donde los valores **tty** son las sesiones directas (locales) y **pts** las esclavas o del tipo ssh.
 
 
+Recursos: 
 
+- [**Serveo (SSH)**](https://serveo.net/#manual)
+- [**Ngrok (HTTP)**](ngrok.com)
