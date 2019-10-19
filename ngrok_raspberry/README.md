@@ -22,7 +22,24 @@ Descomprimir **ngrok-stable-linux-arm.zip**
 #### Iniciar ngrok en el puerto 80 (Puerto de Apache)
 `./ngrok http 80`
 
-#### Iniciar ngrok al iniciar Raspberry
+#### Iniciar ngrok/serveo al iniciar Raspberry
 #### Agregar al archivo /etc/rc.local antes del 'exit 0'
 
 `/home/pi/proyecto/ngrok/ngrok http 80`
+`ssh -R myalias:22:localhost:22 serveo.net`
+
+#### Para conexion con el raspberry atravez del servicio SSH utilizar el comando.
+ 
+`ssh -J serveo.net user@myalias`
+
+Donde **user** es el usuario local del Raspberry.
+
+#### Usuarios
+Para ver los usuarios conectados en el servicio de SSH utilizamos el comando
+
+`w`
+
+Donde los valores **tty** son las sesiones directas (locales) y **pts** las esclavas o del tipo ssh.
+
+
+
