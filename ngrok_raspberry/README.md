@@ -26,21 +26,25 @@ Descomprimir **ngrok-stable-linux-arm.zip**
 #### Agregar al archivo /etc/rc.local antes del 'exit 0'
 
 `/home/pi/proyecto/ngrok/ngrok http 80`
+
 `ssh -R myalias:22:localhost:22 serveo.net`
 
-#### Para conexion con el raspberry atravez del servicio SSH utilizar el comando.
+#### Para conexion con el raspberry atravez del servicio SSH utilizar el comando:
  
 `ssh -J serveo.net user@myalias`
 
 Donde **user** es el usuario local del Raspberry.
 
-#### Usuarios
-Para ver los usuarios conectados en el servicio de SSH utilizamos el comando
+#### Usuarios/Apache
+Para ver los usuarios conectados en el servicio de SSH utilizamos el comando:
 
 `w`
 
 Donde los valores **tty** son las sesiones directas (locales) y **pts** las esclavas o del tipo ssh.
 
+Comando para verificar si Apache esta corriendo:
+
+`service --status-all|grep + `
 
 Recursos: 
 
